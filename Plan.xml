@@ -1,0 +1,14 @@
+<room width="800" height="600">
+	<walls>
+		<wall>
+			<point x="0" y="0"/>
+			<point x="800" y="0"/>
+			<point x="800" y="600"/>
+			<point x="0" y="600"/>
+			<point x="400" y="600"/>
+			<point x="400" y="0"/>
+			<point x="0" y="500"/>
+			<point x="800" y="500"/>
+		</wall>
+	</walls>
+</room>
