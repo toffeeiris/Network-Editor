@@ -3,34 +3,34 @@
 		<!-- Стены (внешние) -->
 		<Wall>
 			<Polygon>
-				<Point x="15" y="0"/>
-				<Point x="815" y="0"/>
-				<Point x="815" y="15"/>
-				<Point x="15" y="15"/>
-			</Polygon>
-		</Wall>
-		<Wall>
-			<Polygon>
 				<Point x="0" y="0"/>
-				<Point x="15" y="0"/>
-				<Point x="15" y="630"/>
-				<Point x="0" y="630"/>
+				<Point x="20" y="0"/>
+				<Point x="20" y="640"/>
+				<Point x="0" y="640"/>
 			</Polygon>
 		</Wall>
 		<Wall>
 			<Polygon>
-				<Point x="15" y="615"/>
-				<Point x="815" y="615"/>
-				<Point x="815" y="630"/>
-				<Point x="15" y="630"/>
+				<Point x="20" y="0"/>
+				<Point x="820" y="0"/>
+				<Point x="820" y="20"/>
+				<Point x="20" y="20"/>
 			</Polygon>
 		</Wall>
 		<Wall>
 			<Polygon>
-				<Point x="815" y="0"/>
-				<Point x="830" y="0"/>
-				<Point x="830" y="630"/>
-				<Point x="815" y="630"/>
+				<Point x="820" y="0"/>
+				<Point x="840" y="0"/>
+				<Point x="840" y="640"/>
+				<Point x="820" y="640"/>
+			</Polygon>
+		</Wall>
+		<Wall>
+			<Polygon>
+				<Point x="20" y="620"/>
+				<Point x="820" y="620"/>
+				<Point x="820" y="640"/>
+				<Point x="20" y="640"/>
 			</Polygon>
 		</Wall>
 	</walls>
