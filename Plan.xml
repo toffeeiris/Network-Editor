@@ -4,8 +4,8 @@
 		<Wall>
 			<Polygon>
 				<Point x="15" y="0"/>
-				<Point x="615" y="0"/>
-				<Point x="615" y="15"/>
+				<Point x="815" y="0"/>
+				<Point x="815" y="15"/>
 				<Point x="15" y="15"/>
 			</Polygon>
 		</Wall>
@@ -27,8 +27,8 @@
 		</Wall>
 		<Wall>
 			<Polygon>
-				<Point x="615" y="0"/>
-				<Point x="630" y="0"/>
+				<Point x="815" y="0"/>
+				<Point x="830" y="0"/>
 				<Point x="830" y="630"/>
 				<Point x="815" y="630"/>
 			</Polygon>
