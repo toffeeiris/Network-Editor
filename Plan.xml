@@ -1,10 +1,37 @@
 <room width="800" height="600">
 	<walls>
-		<wall>
-			<point x="0" y="0"/>
-			<point x="800" y="0"/>
-			<point x="800" y="600"/>
-			<point x="0" y="600"/>
-		</wall>
+		<!-- Стены (внешние) -->
+		<Wall>
+			<Polygon>
+				<Point x="15" y="0"/>
+				<Point x="615" y="0"/>
+				<Point x="615" y="15"/>
+				<Point x="15" y="15"/>
+			</Polygon>
+		</Wall>
+		<Wall>
+			<Polygon>
+				<Point x="0" y="0"/>
+				<Point x="15" y="0"/>
+				<Point x="15" y="630"/>
+				<Point x="0" y="630"/>
+			</Polygon>
+		</Wall>
+		<Wall>
+			<Polygon>
+				<Point x="15" y="615"/>
+				<Point x="815" y="615"/>
+				<Point x="815" y="630"/>
+				<Point x="15" y="630"/>
+			</Polygon>
+		</Wall>
+		<Wall>
+			<Polygon>
+				<Point x="615" y="0"/>
+				<Point x="630" y="0"/>
+				<Point x="830" y="630"/>
+				<Point x="815" y="630"/>
+			</Polygon>
+		</Wall>
 	</walls>
 </room>
