@@ -3,34 +3,34 @@
 		<!-- Стены (внешние) -->
 		<wall>
 			<polygon>
-				<Point x="0" y="0"/>
-				<Point x="20" y="0"/>
-				<Point x="20" y="640"/>
-				<Point x="0" y="640"/>
+				<point x="0" y="0"/>
+				<point x="20" y="0"/>
+				<point x="20" y="640"/>
+				<point x="0" y="640"/>
 			</polygon>
 		</wall>
 		<wall>
 			<polygon>
-				<Point x="20" y="0"/>
-				<Point x="820" y="0"/>
-				<Point x="820" y="20"/>
-				<Point x="20" y="20"/>
+				<point x="20" y="0"/>
+				<point x="820" y="0"/>
+				<point x="820" y="20"/>
+				<point x="20" y="20"/>
 			</polygon>
 		</wall>
 		<wall>
 			<polygon>
-				<Point x="820" y="0"/>
-				<Point x="840" y="0"/>
-				<Point x="840" y="640"/>
-				<Point x="820" y="640"/>
+				<point x="820" y="0"/>
+				<point x="840" y="0"/>
+				<point x="840" y="640"/>
+				<point x="820" y="640"/>
 			</polygon>
 		</wall>
 		<wall>
 			<polygon>
-				<Point x="20" y="620"/>
-				<Point x="820" y="620"/>
-				<Point x="820" y="640"/>
-				<Point x="20" y="640"/>
+				<point x="20" y="620"/>
+				<point x="820" y="620"/>
+				<point x="820" y="640"/>
+				<point x="20" y="640"/>
 			</polygon>
 		</wall>
 	</walls>
