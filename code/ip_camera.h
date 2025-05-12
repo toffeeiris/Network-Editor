@@ -1,0 +1,25 @@
+#ifndef IP_CAMERA_H
+#define IP_CAMERA_H
+
+#include "network_device.h"
+
+class IPCamera : public NetworkDevice
+{
+    Q_OBJECT;
+public:
+    explicit IPCamera(QGraphicsObject *parent = nullptr);  // Конструктор
+    ~IPCamera();  // Деструктор
+    IPCamera* clone() const override;  // Метод для создания копии объекта
+    QPolygonF scenePolygon() const override;  // Возвращает полигон объекта в координатах сцены
+
+private:
+    // Возвращает изображение объекта
+    QPixmap objectPixmap() const override;
+    // Отрисовывает объект на painter
+    void drawObject(QPainter *painter) const override;
+
+    // Статический метод для получения общего изображения IP-камеры
+    static QPixmap& getCommonPixmap();
+};
+
+#endif // IP_CAMERA_H

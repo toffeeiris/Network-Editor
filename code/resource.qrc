@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main/plan.xml</file>
+	<file>main/picture.jpg</file>
+        <file>images/table.png</file>
+	<file>images/cabinet.png</file>
+	<file>images/chair.png</file>
+	<file>images/armchair.png</file>
+	<file>images/server.png</file>
+	<file>images/computer.png</file>
+	<file>images/printer.png</file>
+	<file>images/phone.png</file>
+	<file>images/router.png</file>
+	<file>images/camera.png</file>
+	<file>images/load.png</file>
+	<file>images/save.png</file>
+	<file>images/exit.png</file>
+	<file>images/inf.png</file>
+    </qresource>
+</RCC>
