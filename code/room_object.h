@@ -24,27 +24,28 @@ class RoomObject : public QGraphicsObject
 public:
 
     // Типы объектов
-    enum class objectType {
+    enum class objectType
+    {
         Wall, Door, Window, FreeSpace, \
         Table, Cabinet, Chair, Armchair, \
         Server, Computer, Printer, IPPhone, Router, IPCamera
     };
 
     // Типы контейнеров для объектов
-    enum class containerType {
+    enum class containerType
+    {
         ScrollArea,  // В области прокрутки (панель инструментов)
         MainScene    // На основной сцене
     };
 
     // Типы областей размещения объектов
-    enum areaType {
+    enum areaType
+    {
         OnTable = 1 << 0,   // На столе
         OnCabinet = 1 << 1, // На шкафу
         OnFloor = 1 << 2,   // На полу
         NearWall = 1 << 3   // У стены
     };
-
-    Q_DECLARE_FLAGS(AllowedAreas, areaType)
 
     // Конструкторы
     explicit RoomObject(QGraphicsObject *parent = nullptr);
@@ -59,7 +60,8 @@ public:
     void setSize(int, int);
 
     // Установка типа контейнера
-    void setContainerType(containerType currType) {
+    void setContainerType(containerType currType)
+    {
         cType = currType;
         setFlag(ItemIsMovable, currType == containerType::MainScene);
     }
@@ -76,7 +78,7 @@ public:
     // Получение типа области размещения
     areaType getAreaType() const { return arType; }
 
-    // Виртуальный метод для клонирования объекта
+    // Абстрактный метод для клонирования объекта
     virtual RoomObject* clone() const = 0;
 
     // Проверка возможности размещения объекта в позиции
